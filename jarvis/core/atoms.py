@@ -701,7 +701,9 @@ class Atoms(object):
         return self.remove_sites_by_indices(indices=[site])
 
     def remove_sites_by_indices(self, indices=[0], in_place=False):
-        """Remove multiple atoms by their corresponding indices number."""
+        """
+        Remove multiple atoms by their corresponding indices number.
+        """
         new_els = []
         new_coords = []
         new_props = []
